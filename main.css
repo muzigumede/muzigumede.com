@@ -4,6 +4,15 @@
     padding   : 0;
 }
 
+html {
+    height: 100%;
+}
+
+html body {
+    height: 100%;
+    padding-top: 15%;
+}
+
 #propicDiv {
     text-align: center;
 }
@@ -23,10 +32,27 @@
 
 #linksDiv {
     text-align: center;
+    padding-top: 50px;
 }
 
 #linksDiv li{
     display: inline;
+    color: navy;
+    background-color: none;
     list-style: none;
+    font-size: 18px;
+    margin: 0px 5px 0px 5px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+
+#linksDiv li:hover{
+    color: white;
+    background-color: blue;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
