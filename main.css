@@ -35,11 +35,13 @@ html body {
 
 #fullnameDiv {
     text-align: center;
+    padding-top: 10px;
 }
 
 #fullnameDiv h1{
     font-family: LatoLite;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 #linksDiv {
